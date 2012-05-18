@@ -59,8 +59,6 @@
 		B90BF5BC15663DC300D7CB49 = {
 			isa = PBXGroup;
 			children = (
-				B90BF5ED156647F000D7CB49 /* CoreMedia.framework */,
-				B90BF5EB156647E800D7CB49 /* AVFoundation.framework */,
 				B90BF5D115663DC400D7CB49 /* AVFoundationQuestions */,
 				B90BF5CA15663DC400D7CB49 /* Frameworks */,
 				B90BF5C815663DC400D7CB49 /* Products */,
@@ -78,6 +76,8 @@
 		B90BF5CA15663DC400D7CB49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B90BF5ED156647F000D7CB49 /* CoreMedia.framework */,
+				B90BF5EB156647E800D7CB49 /* AVFoundation.framework */,
 				B90BF5CB15663DC400D7CB49 /* UIKit.framework */,
 				B90BF5CD15663DC400D7CB49 /* Foundation.framework */,
 				B90BF5CF15663DC400D7CB49 /* CoreGraphics.framework */,
@@ -290,6 +290,7 @@
 				B90BF5E715663DC400D7CB49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
