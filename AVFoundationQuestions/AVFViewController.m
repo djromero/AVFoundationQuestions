@@ -25,7 +25,7 @@ void *kDidFailKVO               = &kDidFailKVO;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self playURL:[NSURL URLWithString:@"http://get.wuonm.com/download/steps.m4v"]];
+    [self playURL:[NSURL URLWithString:@"http://nba.cdn.turner.com/nba/big/channels/top_plays/2012/02/03/20120203_top10.nba_nba_ipad.mp4"]];
 }
 
 - (void)viewDidUnload
