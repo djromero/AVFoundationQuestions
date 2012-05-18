@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90BF5CC15663DC400D7CB49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BF5CB15663DC400D7CB49 /* UIKit.framework */; };
+		B90BF5CE15663DC400D7CB49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BF5CD15663DC400D7CB49 /* Foundation.framework */; };
+		B90BF5D015663DC400D7CB49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BF5CF15663DC400D7CB49 /* CoreGraphics.framework */; };
+		B90BF5D615663DC400D7CB49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B90BF5D415663DC400D7CB49 /* InfoPlist.strings */; };
+		B90BF5D815663DC400D7CB49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BF5D715663DC400D7CB49 /* main.m */; };
+		B90BF5DC15663DC400D7CB49 /* AVFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BF5DB15663DC400D7CB49 /* AVFAppDelegate.m */; };
+		B90BF5DF15663DC400D7CB49 /* AVFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BF5DE15663DC400D7CB49 /* AVFViewController.m */; };
+		B90BF5E215663DC400D7CB49 /* AVFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90BF5E015663DC400D7CB49 /* AVFViewController.xib */; };
+		B90BF5EA1566443300D7CB49 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BF5E91566443300D7CB49 /* PlayerView.m */; };
+		B90BF5EC156647E800D7CB49 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BF5EB156647E800D7CB49 /* AVFoundation.framework */; };
+		B90BF5EE156647F000D7CB49 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BF5ED156647F000D7CB49 /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B90BF5C715663DC400D7CB49 /* AVFoundationQuestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundationQuestions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90BF5CB15663DC400D7CB49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B90BF5CD15663DC400D7CB49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B90BF5CF15663DC400D7CB49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B90BF5D315663DC400D7CB49 /* AVFoundationQuestions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVFoundationQuestions-Info.plist"; sourceTree = "<group>"; };
+		B90BF5D515663DC400D7CB49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B90BF5D715663DC400D7CB49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B90BF5D915663DC400D7CB49 /* AVFoundationQuestions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVFoundationQuestions-Prefix.pch"; sourceTree = "<group>"; };
+		B90BF5DA15663DC400D7CB49 /* AVFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFAppDelegate.h; sourceTree = "<group>"; };
+		B90BF5DB15663DC400D7CB49 /* AVFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFAppDelegate.m; sourceTree = "<group>"; };
+		B90BF5DD15663DC400D7CB49 /* AVFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFViewController.h; sourceTree = "<group>"; };
+		B90BF5DE15663DC400D7CB49 /* AVFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFViewController.m; sourceTree = "<group>"; };
+		B90BF5E115663DC400D7CB49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AVFViewController.xib; sourceTree = "<group>"; };
+		B90BF5E81566443300D7CB49 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		B90BF5E91566443300D7CB49 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		B90BF5EB156647E800D7CB49 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B90BF5ED156647F000D7CB49 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B90BF5C415663DC400D7CB49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90BF5EE156647F000D7CB49 /* CoreMedia.framework in Frameworks */,
+				B90BF5EC156647E800D7CB49 /* AVFoundation.framework in Frameworks */,
+				B90BF5CC15663DC400D7CB49 /* UIKit.framework in Frameworks */,
+				B90BF5CE15663DC400D7CB49 /* Foundation.framework in Frameworks */,
+				B90BF5D015663DC400D7CB49 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B90BF5BC15663DC300D7CB49 = {
+			isa = PBXGroup;
+			children = (
+				B90BF5ED156647F000D7CB49 /* CoreMedia.framework */,
+				B90BF5EB156647E800D7CB49 /* AVFoundation.framework */,
+				B90BF5D115663DC400D7CB49 /* AVFoundationQuestions */,
+				B90BF5CA15663DC400D7CB49 /* Frameworks */,
+				B90BF5C815663DC400D7CB49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B90BF5C815663DC400D7CB49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B90BF5C715663DC400D7CB49 /* AVFoundationQuestions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B90BF5CA15663DC400D7CB49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90BF5CB15663DC400D7CB49 /* UIKit.framework */,
+				B90BF5CD15663DC400D7CB49 /* Foundation.framework */,
+				B90BF5CF15663DC400D7CB49 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B90BF5D115663DC400D7CB49 /* AVFoundationQuestions */ = {
+			isa = PBXGroup;
+			children = (
+				B90BF5E81566443300D7CB49 /* PlayerView.h */,
+				B90BF5E91566443300D7CB49 /* PlayerView.m */,
+				B90BF5DA15663DC400D7CB49 /* AVFAppDelegate.h */,
+				B90BF5DB15663DC400D7CB49 /* AVFAppDelegate.m */,
+				B90BF5DD15663DC400D7CB49 /* AVFViewController.h */,
+				B90BF5DE15663DC400D7CB49 /* AVFViewController.m */,
+				B90BF5E015663DC400D7CB49 /* AVFViewController.xib */,
+				B90BF5D215663DC400D7CB49 /* Supporting Files */,
+			);
+			path = AVFoundationQuestions;
+			sourceTree = "<group>";
+		};
+		B90BF5D215663DC400D7CB49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B90BF5D315663DC400D7CB49 /* AVFoundationQuestions-Info.plist */,
+				B90BF5D415663DC400D7CB49 /* InfoPlist.strings */,
+				B90BF5D715663DC400D7CB49 /* main.m */,
+				B90BF5D915663DC400D7CB49 /* AVFoundationQuestions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B90BF5C615663DC400D7CB49 /* AVFoundationQuestions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90BF5E515663DC400D7CB49 /* Build configuration list for PBXNativeTarget "AVFoundationQuestions" */;
+			buildPhases = (
+				B90BF5C315663DC400D7CB49 /* Sources */,
+				B90BF5C415663DC400D7CB49 /* Frameworks */,
+				B90BF5C515663DC400D7CB49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVFoundationQuestions;
+			productName = AVFoundationQuestions;
+			productReference = B90BF5C715663DC400D7CB49 /* AVFoundationQuestions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B90BF5BE15663DC300D7CB49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AVF;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Wuonm Web Services S.L.";
+			};
+			buildConfigurationList = B90BF5C115663DC300D7CB49 /* Build configuration list for PBXProject "AVFoundationQuestions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B90BF5BC15663DC300D7CB49;
+			productRefGroup = B90BF5C815663DC400D7CB49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B90BF5C615663DC400D7CB49 /* AVFoundationQuestions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B90BF5C515663DC400D7CB49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90BF5D615663DC400D7CB49 /* InfoPlist.strings in Resources */,
+				B90BF5E215663DC400D7CB49 /* AVFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B90BF5C315663DC400D7CB49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90BF5D815663DC400D7CB49 /* main.m in Sources */,
+				B90BF5DC15663DC400D7CB49 /* AVFAppDelegate.m in Sources */,
+				B90BF5DF15663DC400D7CB49 /* AVFViewController.m in Sources */,
+				B90BF5EA1566443300D7CB49 /* PlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B90BF5D415663DC400D7CB49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90BF5D515663DC400D7CB49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B90BF5E015663DC400D7CB49 /* AVFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90BF5E115663DC400D7CB49 /* en */,
+			);
+			name = AVFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B90BF5E315663DC400D7CB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B90BF5E415663DC400D7CB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B90BF5E615663DC400D7CB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVFoundationQuestions/AVFoundationQuestions-Prefix.pch";
+				INFOPLIST_FILE = "AVFoundationQuestions/AVFoundationQuestions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B90BF5E715663DC400D7CB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVFoundationQuestions/AVFoundationQuestions-Prefix.pch";
+				INFOPLIST_FILE = "AVFoundationQuestions/AVFoundationQuestions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B90BF5C115663DC300D7CB49 /* Build configuration list for PBXProject "AVFoundationQuestions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90BF5E315663DC400D7CB49 /* Debug */,
+				B90BF5E415663DC400D7CB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90BF5E515663DC400D7CB49 /* Build configuration list for PBXNativeTarget "AVFoundationQuestions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90BF5E615663DC400D7CB49 /* Debug */,
+				B90BF5E715663DC400D7CB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B90BF5BE15663DC300D7CB49 /* Project object */;
+}
