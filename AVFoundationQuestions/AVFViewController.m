@@ -80,7 +80,9 @@ void *kDidFailKVO               = &kDidFailKVO;
     if (kRateDidChangeKVO == context) {
         NSLog(@"Player playback rate changed: %.5f", player.rate);
         if (player.rate == 0.0) {
-            NSLog(@" . . . PAUSE");
+            if (_playing > 0) {
+                NSLog(@" . . . PAUSE");
+            }
         }
     } else if (kStatusDidChangeKVO == context) {
         NSLog(@"Player status changed: %i", player.status);
@@ -93,19 +95,19 @@ void *kDidFailKVO               = &kDidFailKVO;
         if (timeRanges && [timeRanges count]) {
             CMTimeRange timerange = [[timeRanges objectAtIndex:0] CMTimeRangeValue];
             NSLog(@" . . . %.5f -> %.5f", CMTimeGetSeconds(timerange.start), CMTimeGetSeconds(CMTimeAdd(timerange.start, timerange.duration)));
-            if (CMTIME_COMPARE_INLINE(timerange.duration, >, CMTimeMakeWithSeconds(3, timerange.duration.timescale))) {
+            if (CMTIME_COMPARE_INLINE(timerange.duration, >, CMTimeMakeWithSeconds(10, timerange.duration.timescale))) {
                 if (!_playing) {
                     [player play];
                     _playing = 1;
                 }
             } 
-            if (CMTIME_COMPARE_INLINE(timerange.duration, >, CMTimeMakeWithSeconds(4, timerange.duration.timescale))) {
+            if (CMTIME_COMPARE_INLINE(timerange.duration, >, CMTimeMakeWithSeconds(15, timerange.duration.timescale))) {
                 if (_playing == 1) {
                     [player pause];
                     _playing = 2;
                 }
             } 
-            if (CMTIME_COMPARE_INLINE(timerange.duration, >=, CMTimeMakeWithSeconds(5, timerange.duration.timescale))) {
+            if (CMTIME_COMPARE_INLINE(timerange.duration, >=, CMTimeMakeWithSeconds(20, timerange.duration.timescale))) {
                 if (_playing == 2) {
                     [player play];
                     _playing = 3;
